@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\Monkey\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Monkey-OneDrive-Desktop-ghost-ai\\\\eb76aa59-96f5-4652-b3bf-e166490789ae\\\\tasks\\\\bplbirr16.output\")",
+      "Bash(npx shadcn@latest add button card dialog input tabs textarea scroll-area -y)",
+      "Bash(npm install *)",
+      "Bash(Get-Content \"c:\\\\Users\\\\Monkey\\\\OneDrive\\\\Desktop\\\\ghost-ai\\\\app\\\\layout.tsx\")",
+      "Bash(Select-Object -First 35)",
+      "Bash(pwsh -Command \"Get-Content 'c:\\\\Users\\\\Monkey\\\\OneDrive\\\\Desktop\\\\ghost-ai\\\\app\\\\layout.tsx' | Select-Object -First 35\")",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0~j95e.._.css)",
+      "Bash(pwsh -Command \"Get-Process -Name 'node' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue\")",
+      "Bash(curl -s http://localhost:3000)"
+    ]
+  }
+}
