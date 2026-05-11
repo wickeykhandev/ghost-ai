@@ -6,9 +6,10 @@ import { Button } from "@/components/ui/button";
 interface EditorNavbarProps {
   isSidebarOpen: boolean;
   onToggleSidebar: () => void;
+  rightSection?: React.ReactNode;
 }
 
-export function EditorNavbar({ isSidebarOpen, onToggleSidebar }: EditorNavbarProps) {
+export function EditorNavbar({ isSidebarOpen, onToggleSidebar, rightSection }: EditorNavbarProps) {
   return (
     <nav className="h-14 border-b border-border/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex h-full items-center justify-between px-4">
@@ -35,7 +36,7 @@ export function EditorNavbar({ isSidebarOpen, onToggleSidebar }: EditorNavbarPro
 
         {/* Right Section */}
         <div className="flex items-center">
-          {/* Reserved for future use */}
+          {rightSection}
         </div>
       </div>
     </nav>

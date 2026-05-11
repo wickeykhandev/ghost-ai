@@ -9,7 +9,7 @@ change.
 
 ## Current Goal
 
-- Editor chrome (navbar + sidebar shell)
+- Authentication (Clerk)
 
 ## Completed
 
@@ -26,6 +26,17 @@ change.
   - Created project-sidebar.tsx (floating, slides from left)
   - Created dialog-wrapper.tsx with Dialog, ConfirmDialog patterns
   - Updated page.tsx to integrate navbar and sidebar
+
+- Authentication
+  - Installed @clerk/nextjs and @clerk/ui
+  - Created proxy.ts at project root for route protection
+  - Created sign-in page with two-panel layout
+  - Created sign-up page with two-panel layout
+  - Updated root layout with ClerkProvider
+  - Updated root page to redirect based on auth state
+  - Added UserButton to editor navbar
+  - All auth pages use CSS variables (no hardcoded colors)
+  - Build passes
 
 ## In Progress
 
